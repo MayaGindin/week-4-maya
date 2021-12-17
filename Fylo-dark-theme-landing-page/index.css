@@ -1,0 +1,102 @@
+* {
+  background-color: hsl(218, 28%, 13%);
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav_item {
+  display: flex;
+  margin-inline-start: 10px;
+}
+.navBar_nav {
+  display: flex;
+  margin: 100px;
+}
+.head {
+  text-align: center;
+}
+.illustration-intro {
+  margin-bottom: 50px;
+}
+.subtitle-content {
+  margin: 50px;
+}
+.getStarted {
+  border-radius: 100vw;
+  width: 150px;
+  height: 65px;
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
+  box-shadow: 0px;
+}
+.navBar_nav :hover {
+  color: #339ecc;
+}
+.iconsSection {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+}
+.container {
+  margin: 195px;
+}
+.img_and_text {
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+}
+.img_illustration_stay {
+  margin: 45px;
+}
+.text_from_section_img_and_text :not(:last-child) {
+  margin-bottom: 25px;
+}
+.nav_bar_2 {
+  display: flex;
+  gap: 40px;
+  padding: 140px;
+}
+.comment {
+  background: #202a3c;
+  padding: 45px 40px;
+  border-radius: 15px;
+}
+
+.place_for_email {
+  background-color: #202a3c;
+  background-size: 100px;
+  text-align: center;
+  margin: 30px;
+  position: relative;
+}
+.email {
+  background-color: white;
+  border-radius: 20px;
+}
+.get_started_for_free {
+  border-radius: 100vw;
+  width: 150px;
+  height: 65px;
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
+  box-shadow: 0px;
+}
+@media only screen and (max-width: 1250px) {
+  body {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  body {
+    width: 600px;
+  }
+}
